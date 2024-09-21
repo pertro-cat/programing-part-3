@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "C++ Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/lab1/task4", // Шлях до вашої програми
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/lab1", // Поточний каталог вашого проекту
+            "environment": [],
+            "externalConsole": true, // Запуск в зовнішньому терміналі
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "",
+            "internalConsoleOptions": "neverOpen"
+        }
+    ]
+}

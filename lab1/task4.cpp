@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     double r, S;
     
-    cout << "Input the radius in sentimeter\n";
+    cout << "Input the radius in sentimeter: " << endl;
     cin >> r;
     
     S = 3.14159 * (r * r);
